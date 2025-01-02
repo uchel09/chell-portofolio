@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className=" w-[90%]   flex flex-col gap-10  items-center justify-center text-white md:mt-0 mt-4">
+    <div className=" w-[90%]   flex flex-col gap-10 mb-[100px] sm:mb-0 items-center justify-center text-white md:mt-0 mt-4">
       <div>
         <h1 className=" block px-4 py-2 text-[30px] hover:bg-white  hover:text-black capitalize transition-colors duration-300 bg-gradient-to-r text-transparent bg-clip-text from-[#ff014f]
          via-[#ff00ff] to-[#ffce3c] font-bold cursor-pointer hover:translate-x-2 ">
