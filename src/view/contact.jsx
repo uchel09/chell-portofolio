@@ -8,22 +8,6 @@ const ContactMe = () => {
     email: "",
     message: "",
   });
-    const textVariants = {
-      initial: {
-        x: 400,
-        y: -300,
-        opacity: 0,
-      },
-      animate: {
-        x: 0,
-        y: 0,
-        opacity: 1,
-        transition: {
-          duration: 1,
-          staggerChildren: 0.1,
-        },
-      },
-    };
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -65,12 +49,7 @@ const ContactMe = () => {
   };
 
   return (
-    <motion.div
-      variants={textVariants}
-      initial="initial"
-      whileInView="animate"
-      className="min-h-screen flex flex-col items-center gap-10 md:flex-row justify-center w-full p-9  mt-20"
-    >
+    <motion.div className="min-h-screen flex flex-col items-center gap-10 md:flex-row justify-center w-full p-9 ">
       <div className="w-full md:w-1/2  p-8 bg-white  rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold text-center text-gray-800 mb-6">
           Contact Me
@@ -145,28 +124,28 @@ const ContactMe = () => {
           </button>
         </form>
       </div>
-      <div className="md:w-1/2 w-full flex flex-col gap-4">
-        <div className="group relative flex justify-center items-center cursor-pointer bg-[#ffff45] text-black p-3 rounded-lg shadow-white shadow-2xl overflow-hidden">
+      <div className="md:w-1/2 w-full flex flex-col gap-10">
+        <div className="group relative flex justify-center items-center bg-[#ffff45] text-black p-3 rounded-lg shadow-white shadow-2xl overflow-hidden">
           <div className="[word-spacing:0.15rem] sm:text-[14px] md:text-[18px] font-bold relative z-10 transition-colors duration-500 group-hover:text-white flex flex-col">
             <span>Whatsapp : 081247302797</span>
           </div>
           <div className="absolute inset-0 bg-gradient-to-r from-[#ff014f] to-[#ff85de] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
         </div>
-        <div className="group relative flex justify-center items-center cursor-pointer bg-[#ffff45] text-black p-3 rounded-lg shadow-white shadow-2xl overflow-hidden">
+        <div className="group relative flex justify-center items-center bg-[#ffff45] text-black p-3 rounded-lg shadow-white shadow-2xl overflow-hidden">
           <div className="[word-spacing:0.15rem] sm:text-[14px] md:text-[18px] font-bold relative z-10 transition-colors duration-500 group-hover:text-white flex flex-col">
-            <span>Linkin : 081247302797</span>
+            <span>Whatsapp : 081247302797</span>
           </div>
           <div className="absolute inset-0 bg-gradient-to-r from-[#ff014f] to-[#ff85de] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
         </div>
-        <div className="group relative flex justify-center items-center cursor-pointer bg-[#ffff45] text-black p-3 rounded-lg shadow-white shadow-2xl overflow-hidden">
+        <div className="group relative flex justify-center items-center bg-[#ffff45] text-black p-3 rounded-lg shadow-white shadow-2xl overflow-hidden">
           <div className="[word-spacing:0.15rem] sm:text-[14px] md:text-[18px] font-bold relative z-10 transition-colors duration-500 group-hover:text-white flex flex-col">
-            <span>Instagram : 081247302797</span>
+            <span>Whatsapp : 081247302797</span>
           </div>
           <div className="absolute inset-0 bg-gradient-to-r from-[#ff014f] to-[#ff85de] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
         </div>
-        <div className="group relative flex justify-center items-center cursor-pointer bg-[#ffff45] text-black p-3 rounded-lg shadow-white shadow-2xl overflow-hidden mb-20">
+        <div className="group relative flex justify-center items-center bg-[#ffff45] text-black p-3 rounded-lg shadow-white shadow-2xl overflow-hidden">
           <div className="[word-spacing:0.15rem] sm:text-[14px] md:text-[18px] font-bold relative z-10 transition-colors duration-500 group-hover:text-white flex flex-col">
-            <span>Youtube : 081247302797</span>
+            <span>Whatsapp : 081247302797</span>
           </div>
           <div className="absolute inset-0 bg-gradient-to-r from-[#ff014f] to-[#ff85de] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
         </div>

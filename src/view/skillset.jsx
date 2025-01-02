@@ -26,7 +26,7 @@ import {
 
 const Skillset = () => {
   return (
-    <div className="w-[90%]">
+    <div className="md:w-[90%] w-full overflow-x-hidden">
       <div className="w-full  flex items-center justify-center mb-3">
         <h1
           className=" block px-4 py-2 text-[30px] hover:bg-white mt-20  hover:text-black capitalize transition-colors duration-300 bg-gradient-to-r text-transparent bg-clip-text from-[#ff014f]
