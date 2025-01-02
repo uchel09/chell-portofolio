@@ -21,10 +21,10 @@ function App() {
             <About />
           </div>
         </div>
-        <div id="about" className=" w-full pt-20 flex flex-col ">
+        <div id="skills" className=" w-full pt-20 flex flex-col ">
           <div
             id="skills"
-            className="flex-1  flex items-center justify-center "
+            className="flex-1  flex items-center justify-center  "
           >
             <Skillset />
           </div>

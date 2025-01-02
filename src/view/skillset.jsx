@@ -26,8 +26,8 @@ import {
 
 const Skillset = () => {
   return (
-    <div className="md:w-[90%] w-full overflow-x-hidden">
-      <div className="w-full  flex items-center justify-center mb-3">
+    <div className=" w-full overflow-x-hidden">
+      <div className="w-full  flex items-center justify-evenly mb-3">
         <h1
           className=" block px-4 py-2 text-[30px] hover:bg-white mt-20  hover:text-black capitalize transition-colors duration-300 bg-gradient-to-r text-transparent bg-clip-text from-[#ff014f]
          via-[#ff00ff] to-[#ffce3c] font-bold cursor-pointer hover:translate-x-2 "
@@ -36,7 +36,27 @@ const Skillset = () => {
         </h1>
       </div>
 
-      <div className="w-full flex-wrap flex-col gap-[60px] md:gap-10 md:flex-row flex justify-between">
+      <div className="w-full flex-wrap flex-col gap-[60px] md:gap-10 md:flex-row flex justify-center">
+        <motion.div
+          animate={{
+            x: [0, -50, 50, 0],
+            y: [0, 50, -50, 0],
+          }}
+          transition={{
+            duration: 5,
+            repeat: Infinity,
+          }}
+          whileInView="animate"
+          className="w-[400px] h-[260px] flex flex-col justify-between items-center rounded-xl hover:shadow-2xl hover:shadow-purple-400 shadow-xl shadow-white bg-black border-t-2 border-white"
+        >
+          <h3 className="text-slate-400 w-full text-center mb-3 text-[20px] font-bold">
+            Mobile
+          </h3>
+          <img src="icons8-flutter.svg" alt="flutter" />
+          <p className="text-white w-full text-center mb-3 text-[20px] font-bold">
+            Flutter
+          </p>
+        </motion.div>
         <motion.div
           animate={{
             x: [0, -60, 60, 0],
@@ -92,26 +112,7 @@ const Skillset = () => {
             </div>
           </div>
         </motion.div>
-        <motion.div
-          animate={{
-            x: [0, -50, 50, 0],
-            y: [0, 50, -50, 0],
-          }}
-          transition={{
-            duration: 5,
-            repeat: Infinity,
-          }}
-          whileInView="animate"
-          className="w-[400px] h-[260px] flex flex-col justify-between items-center rounded-xl hover:shadow-2xl hover:shadow-purple-400 shadow-xl shadow-white bg-black border-t-2 border-white"
-        >
-          <h3 className="text-slate-400 w-full text-center mb-3 text-[20px] font-bold">
-            Mobile
-          </h3>
-          <img src="icons8-flutter.svg" alt="flutter" />
-          <p className="text-white w-full text-center mb-3 text-[20px] font-bold">
-            Flutter
-          </p>
-        </motion.div>
+
         <motion.div
           animate={{
             x: [0, 60, -60, 0],
