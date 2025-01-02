@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+ 
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: black;
+  background-image: url('/stars.png');
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+
+@keyframes wave-border {
+  0% {
+    border-radius: 55% 45% 55% 45%;
+  }
+  50% {
+    border-radius: 45% 55% 45% 55%;
+  }
+  100% {
+    border-radius: 55% 45% 55% 45%;
+  }
+}
+
+.animate-wave {
+  animation: wave-border 6s ease-in-out infinite;
+}
+
+
+/* for Tabs in project section  */
+@layer utilities {
+  .fade-in {
+    animation: fade-in 0.3s ease-in-out;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+
+
