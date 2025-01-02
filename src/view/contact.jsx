@@ -49,15 +49,15 @@ const ContactMe = () => {
   };
 
   return (
-    <motion.div className="min-h-screen flex flex-col items-center gap-10 md:flex-row justify-center w-full p-9 ">
+    <motion.div className="min-h-screen flex flex-col items-center gap-10 md:flex-row justify-center w-full md:p-9 p-2">
       <div className="w-full md:w-1/2  p-8 bg-white  rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold text-center text-gray-800 mb-6">
           Contact Me
         </h2>
-        <p className="text-xl  text-center text-gray-800 mb-6">
+        <p className="text-sm  text-center text-gray-400 mb-6">
           these fields will sent to
         </p>
-        <p className="text-xl  font-bold text-center text-gray-800 mb-6">
+        <p className="text-normal md:text-xl  font-bold text-center text-gray-800 mb-6">
           russel.emilian@gmail.com
         </p>
 

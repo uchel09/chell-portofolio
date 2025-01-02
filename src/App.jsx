@@ -31,11 +31,11 @@ function App() {
         </div>
         <div
           id="projects"
-          className="h-[100vh] w-full gap-10 pt-20 flex flex-col  mt-20 items-center justify-center"
+          className=" w-full min-h-screen gap-10 pt-20 flex flex-col  mt-20 items-center justify-center"
         >
           <Projects />
         </div>
-        <div id="contact" className="h-[100vh] w-full flex flex-col mb-20">
+        <div id="contact" className=" w-full flex flex-col mb-20">
           <ContactMe />
         </div>
       </div>
