@@ -16,12 +16,12 @@ function App() {
             <Home />
           </div>
         </div>
-        <div id="about" className="h-[100vh] w-full pt-20 flex flex-col  ">
+        <div id="about" className="w-full pt-20 flex flex-col  mb-12 ">
           <div className="flex-1  flex items-center justify-center">
             <About />
           </div>
         </div>
-        <div id="skills" className=" w-full pt-20 flex flex-col ">
+        <div id="skills" className=" w-full pt-20 flex flex-col">
           <div
             id="skills"
             className="flex-1  flex items-center justify-center  "
