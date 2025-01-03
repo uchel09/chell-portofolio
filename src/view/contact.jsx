@@ -1,6 +1,8 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import { motion } from "framer-motion";
+import { SiInstagram, SiLinkedin, SiWhatsapp } from "react-icons/si";
+
 
 const ContactMe = () => {
   const [formData, setFormData] = useState({
@@ -47,6 +49,12 @@ const ContactMe = () => {
         }
       );
   };
+
+    const phoneNumber = "6281247302797"; 
+    const message = "Halo, saya tertarik dengan layanan Anda!"; 
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+      message
+    )}`;
 
   return (
     <motion.div className="min-h-screen flex flex-col items-center gap-10 md:flex-row justify-center w-full md:p-9 p-2">
@@ -125,30 +133,48 @@ const ContactMe = () => {
         </form>
       </div>
       <div className="md:w-1/2 w-full flex flex-col gap-10">
-        <div className="group relative flex justify-center items-center bg-[#ffff45] text-black p-3 rounded-lg shadow-white shadow-2xl overflow-hidden">
-          <div className="[word-spacing:0.15rem] sm:text-[14px] md:text-[18px] font-bold relative z-10 transition-colors duration-500 group-hover:text-white flex flex-col">
-            <span>Whatsapp : 081247302797</span>
+        <a
+          href="https://www.linkedin.com/in/russel-emilian-rumbino-01835a226/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group relative flex justify-center items-center bg-[white] text-black p-3 rounded-lg shadow-white shadow-2xl overflow-hidden"
+        >
+          <div className="[word-spacing:0.15rem] sm:text-[14px] md:text-[18px] font-bold relative z-10 transition-colors duration-500 group-hover:text-white flex justify-center items-center gap-10">
+            <span>Linkedin</span>{" "}
+            <SiLinkedin className="text-[#2295ec]" size={30} />
           </div>
           <div className="absolute inset-0 bg-gradient-to-r from-[#ff014f] to-[#ff85de] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
-        </div>
-        <div className="group relative flex justify-center items-center bg-[#ffff45] text-black p-3 rounded-lg shadow-white shadow-2xl overflow-hidden">
-          <div className="[word-spacing:0.15rem] sm:text-[14px] md:text-[18px] font-bold relative z-10 transition-colors duration-500 group-hover:text-white flex flex-col">
-            <span>Whatsapp : 081247302797</span>
+        </a>
+        <a
+          href="https://www.instagram.com/russel_rumbino/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group relative flex justify-center items-center bg-[white] text-black p-3 rounded-lg shadow-white shadow-2xl overflow-hidden"
+        >
+          <div className="[word-spacing:0.15rem] sm:text-[14px] md:text-[18px] font-bold relative z-10 transition-colors duration-500 group-hover:text-white flex justify-center items-center gap-10">
+            <span>Instagram</span>{" "}
+            <SiInstagram
+              className="text-[#ff5fba] hover:text-white"
+              size={30}
+            />
           </div>
           <div className="absolute inset-0 bg-gradient-to-r from-[#ff014f] to-[#ff85de] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
-        </div>
-        <div className="group relative flex justify-center items-center bg-[#ffff45] text-black p-3 rounded-lg shadow-white shadow-2xl overflow-hidden">
-          <div className="[word-spacing:0.15rem] sm:text-[14px] md:text-[18px] font-bold relative z-10 transition-colors duration-500 group-hover:text-white flex flex-col">
-            <span>Whatsapp : 081247302797</span>
+        </a>
+        <a
+          href={whatsappURL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group relative flex justify-center items-center bg-[white] text-black p-3 rounded-lg shadow-white shadow-2xl overflow-hidden"
+        >
+          <div className="[word-spacing:0.15rem] sm:text-[14px] md:text-[18px] font-bold relative z-10 transition-colors duration-500 group-hover:text-white flex justify-center items-center gap-10">
+            <span>WhatsApp</span>{" "}
+            <SiWhatsapp
+              className="text-[#2eff82] hover:text-white"
+              size={30}
+            />
           </div>
           <div className="absolute inset-0 bg-gradient-to-r from-[#ff014f] to-[#ff85de] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
-        </div>
-        <div className="group relative flex justify-center items-center bg-[#ffff45] text-black p-3 rounded-lg shadow-white shadow-2xl overflow-hidden">
-          <div className="[word-spacing:0.15rem] sm:text-[14px] md:text-[18px] font-bold relative z-10 transition-colors duration-500 group-hover:text-white flex flex-col">
-            <span>Whatsapp : 081247302797</span>
-          </div>
-          <div className="absolute inset-0 bg-gradient-to-r from-[#ff014f] to-[#ff85de] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
-        </div>
+        </a>
       </div>
     </motion.div>
   );
