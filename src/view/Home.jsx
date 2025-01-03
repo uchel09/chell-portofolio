@@ -35,6 +35,21 @@ const Home = () => {
             />
           </span>
         </div>
+        <div className="w- full flex  gap-10  ">
+          <a
+            href="/russelcv.pdf"
+            download="russelcv.pdf"
+            className="bg-yellow-500 text-white px-4 py-2 rounded hover:text-black hover:bg-white hover:shadow-lg hover:shadow-white"
+          >
+            Download CV
+          </a>
+          <a
+            href="#contact"
+            className="bg-purple-500 text-white px-4 py-2 rounded hover:text-black hover:bg-white hover:shadow-lg hover:shadow-white"
+          >
+            Hire Me
+          </a>
+        </div>
       </div>
     </>
   );
