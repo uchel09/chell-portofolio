@@ -9,7 +9,7 @@ const Experiences = () => {
           Experiences
         </h1>
       </div>
-      <div className="group relative flex flex-col justify-start items-start bg-[white] text-black p-6 rounded-lg shadow-white shadow-2xl overflow-hidden">
+      <div className="group relative flex flex-col justify-start items-start bg-[#ffffe6] text-black p-6 rounded-lg shadow-white shadow-2xl overflow-hidden">
         <span className="font-bold text-[20px]  relative z-10 group-hover:text-white transition-colors duration-500">
           Eduwork
         </span>
@@ -17,7 +17,7 @@ const Experiences = () => {
           Fullstack Web Developer MERN
         </span>
         <span className="mb-10 italic  relative z-10 group-hover:text-white transition-colors duration-500">
-          Maret 2023 - Desember 2024
+          Maret 2024 - Desember 2024
         </span>
         <span className="[word-spacing:0.15rem] sm:text-[14px] md:text-[18px] font-bold relative z-10 transition-colors duration-500 group-hover:text-white">
           Implemented the MVC architecture and developed RESTful APIs using
