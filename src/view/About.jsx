@@ -11,21 +11,20 @@ const About = () => {
       </div>
       <div className="group relative flex justify-center items-center bg-[#ffff45] text-black p-6 rounded-lg shadow-white shadow-2xl overflow-hidden">
         <span className="[word-spacing:0.15rem] sm:text-[14px] md:text-[18px] font-bold relative z-10 transition-colors duration-500 group-hover:text-white">
-          I graduated with a degree in Mechanical Engineering in 2021 from Sam
-          Ratulangi University. Since then, I have developed a strong passion
-          for Website and Mobile Development. I have completed training in the
-          MERN stack, gaining hands-on experience with MongoDB, Express.js,
-          React, and Node.js. In addition, I possess skills in Mobile
-          Development as a Flutter Developer. Through this training, I mastered
-          the MVC pattern, which helps in organizing code, separating
-          application logic, and enhancing maintenance and scalability.
-          Furthermore, I honed my ability to manage application state using
-          Redux in React, allowing me to simplify complex codebases and
-          streamline development workflows. I am currently open to opportunities
-          as a Front-End Developer, Back-End Developer,Mobile Developer or
-          Full-Stack Developer. I am eager to leverage my technical expertise,
-          strong problem-solving abilities, and passion for creating seamless
-          user experiences to contribute to impactful projects.
+          Graduated with a degree in Mechanical Engineering in 2021 from Sam
+          Ratulangi University, with a strong passion for Website and Mobile
+          Development. Completed training in the MERN stack, gaining hands-on
+          experience with MongoDB, Express.js, React, and Node.js, along with
+          skills in Mobile Development as a Flutter Developer. The training
+          provided mastery of the MVC pattern for organizing code, separating
+          application logic, and improving maintenance and scalability.
+          Proficiency in managing application state using Redux in React was
+          also developed, enabling the simplification of complex codebases and
+          streamlining development workflows. Currently open to roles as a
+          Front-End Developer, Back-End Developer, Mobile Developer, or
+          Full-Stack Developer, with a focus on leveraging technical expertise,
+          problem-solving abilities, and a passion for creating seamless user
+          experiences to contribute to impactful projects.
         </span>
         <div className="absolute inset-0 bg-gradient-to-r from-[#ff014f] to-[#011eff] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
       </div>

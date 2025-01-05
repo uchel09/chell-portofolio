@@ -37,8 +37,8 @@ const Home = () => {
         </div>
         <div className="w- full flex  gap-10  ">
           <a
-            href="/russelcv.pdf"
-            download="russelcv.pdf"
+            href="/CV-Russel.pdf"
+            download="CV-Russel.pdf"
             className="bg-yellow-500 text-white px-4 py-2 rounded hover:text-black hover:bg-white hover:shadow-lg hover:shadow-white"
           >
             Download CV

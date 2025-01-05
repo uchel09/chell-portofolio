@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import About from "./view/About";
 import ContactMe from "./view/contact";
+import Experiences from "./view/Experience";
 import Home from "./view/Home";
 import Projects from "./view/Projects";
 import Skillset from "./view/skillset";
@@ -34,6 +35,11 @@ function App() {
           className=" w-full min-h-screen gap-10 pt-20 flex flex-col  mt-20 items-center justify-center"
         >
           <Projects />
+        </div>
+        <div id="about" className="w-full pt-20 flex flex-col  mb-12 ">
+          <div className="flex-1  flex items-center justify-center">
+            <Experiences />
+          </div>
         </div>
         <div id="contact" className=" w-full flex flex-col mb-20">
           <ContactMe />
