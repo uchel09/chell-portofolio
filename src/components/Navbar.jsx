@@ -21,7 +21,14 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8">
-          {["home", "about","skills", "projects", "contact"].map((item) => (
+          {[
+            "home",
+            "about",
+            "skills",
+            "projects",
+            "experiences",
+            "contact",
+          ].map((item) => (
             <Link
               key={item}
               to={item}
@@ -72,19 +79,21 @@ const Navbar = () => {
           isOpen ? "max-h-96" : "max-h-0"
         }`}
       >
-        {["home", "about","skills", "projects", "contact"].map((item) => (
-          <Link
-            key={item}
-            to={item}
-            smooth={true}
-            duration={500}
-            spy={true}
-            className="block px-4 py-2 text-sm hover:bg-white  hover:text-black capitalize transition-colors duration-300 bg-gradient-to-r text-transparent bg-clip-text from-[#ff014f] via-[#ff00ff] to-[#ffce3c] font-bold cursor-pointer hover:translate-x-2"
-            onClick={() => {}} // Tutup menu saat klik
-          >
-            {item}
-          </Link>
-        ))}
+        {["home", "about", "skills", "projects", "experiences", "contact"].map(
+          (item) => (
+            <Link
+              key={item}
+              to={item}
+              smooth={true}
+              duration={500}
+              spy={true}
+              className="block px-4 py-2 text-sm hover:bg-white  hover:text-black capitalize transition-colors duration-300 bg-gradient-to-r text-transparent bg-clip-text from-[#ff014f] via-[#ff00ff] to-[#ffce3c] font-bold cursor-pointer hover:translate-x-2"
+              onClick={() => {}} // Tutup menu saat klik
+            >
+              {item}
+            </Link>
+          )
+        )}
       </div>
     </nav>
   );

@@ -36,7 +36,7 @@ function App() {
         >
           <Projects />
         </div>
-        <div id="about" className="w-full pt-20 flex flex-col  mb-12 ">
+        <div id="experiences" className="w-full pt-20 flex flex-col  mb-12 ">
           <div className="flex-1  flex items-center justify-center">
             <Experiences />
           </div>
