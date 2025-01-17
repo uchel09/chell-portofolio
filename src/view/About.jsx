@@ -11,20 +11,14 @@ const About = () => {
       </div>
       <div className="group relative flex justify-center items-center bg-[#ffff45] text-black p-6 rounded-lg shadow-white shadow-2xl overflow-hidden">
         <span className="[word-spacing:0.15rem] sm:text-[14px] md:text-[18px] font-bold relative z-10 transition-colors duration-500 group-hover:text-white">
-          Graduated with a degree in Mechanical Engineering in 2021 from Sam
-          Ratulangi University, with a strong passion for Website and Mobile
-          Development. Completed training in the MERN stack, gaining hands-on
-          experience with MongoDB, Express.js, React, and Node.js, along with
-          skills in Mobile Development as a Flutter Developer. The training
-          provided mastery of the MVC pattern for organizing code, separating
-          application logic, and improving maintenance and scalability.
-          Proficiency in managing application state using Redux in React was
-          also developed, enabling the simplification of complex codebases and
-          streamlining development workflows. Currently open to roles as a
-          Front-End Developer, Back-End Developer, Mobile Developer, or
-          Full-Stack Developer, with a focus on leveraging technical expertise,
-          problem-solving abilities, and a passion for creating seamless user
-          experiences to contribute to impactful projects.
+          Mechanical Engineering graduate with a strong passion for website and
+          mobile development. Proficient in MERN stack (MongoDB / Mysql,
+          Express.js, React, Node.js) and Flutter for mobile app development.
+          Experienced in applying the MVC pattern and state management (Redux,
+          GetX) to build scalable and maintainable applications. Seeking a
+          challenging role as a Front-End Developer, Back-End Developer, Mobile
+          Developer, or Full-Stack Developer to contribute to impactful projects
+          by leveraging technical expertise and problem-solving skills.
         </span>
         <div className="absolute inset-0 bg-gradient-to-r from-[#ff014f] to-[#011eff] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
       </div>
