@@ -35,9 +35,9 @@ const Home = () => {
             />
           </span>
         </div>
-        <div className="w- full flex  gap-10  ">
+        <div className="w-full flex  gap-10  ">
           <a
-            href="/CV-Russel.pdf"
+            href="/CV-RusselEmilianRumbino_1.pdf"
             download="CV-Russel.pdf"
             className="bg-yellow-500 text-white px-4 py-2 rounded hover:text-black hover:bg-white hover:shadow-lg hover:shadow-white"
           >
